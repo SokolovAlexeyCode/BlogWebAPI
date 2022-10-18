@@ -7,7 +7,7 @@ public static class ServicesRegistrationExtension
 {
     public static void AddBusinessLogicServices(this IServiceCollection services)
     {
-        var res = services.RegisterAssemblyPublicNonGenericClasses()
+        services.RegisterAssemblyPublicNonGenericClasses()
             .Where(c => c.Name.EndsWith("Service"))
             .AsPublicImplementedInterfaces();
     }

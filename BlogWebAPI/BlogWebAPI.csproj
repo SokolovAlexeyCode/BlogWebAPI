@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SokolDev.BusinessLogic\SokolDev.BusinessLogic.csproj" />
+    <ProjectReference Include="..\SokolDev.Settings\SokolDev.Settings.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogWebAPI", "BlogWebAPI\BlogWebAPI.csproj", "{AEA44644-01FC-496C-8730-66FB368B2513}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogWebAPI", "BlogWebAPI\BlogWebAPI.csproj", "{AEA44644-01FC-496C-8730-66FB368B2513}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SokolDev.BusinessLogic", "SokolDev.BusinessLogic\SokolDev.BusinessLogic.csproj", "{14D50ED1-EA0D-4304-BBA2-B333B1402DCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SokolDev.BusinessLogic", "SokolDev.BusinessLogic\SokolDev.BusinessLogic.csproj", "{14D50ED1-EA0D-4304-BBA2-B333B1402DCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SokolDev.Utils", "SokolDev.Utils\SokolDev.Utils.csproj", "{8D421C5E-0560-4C11-8B04-D0B4117695DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SokolDev.Utils", "SokolDev.Utils\SokolDev.Utils.csproj", "{8D421C5E-0560-4C11-8B04-D0B4117695DE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C798CE9D-7926-44E1-BC84-63254E4DBDBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SokolDev.DataAccess", "SokolDev.DataAccess\SokolDev.DataAccess.csproj", "{575DCCF1-EE7A-42F0-A579-E8D37F98E291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SokolDev.SQLiteAccess", "SokolDev.SQLiteAccess\SokolDev.SQLiteAccess.csproj", "{4DAB202E-47F1-4553-844C-F5A059807487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SokolDev.DataAccessAbstractions", "SokolDev.DataAccessAbstractions\SokolDev.DataAccessAbstractions.csproj", "{2C843EC6-701A-41D4-A806-645D63B5F520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SokolDev.Converters", "SokolDev.Converters\SokolDev.Converters.csproj", "{604D32FF-4A60-4957-BF8D-DBA81F989810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SokolDev.Settings", "SokolDev.Settings\SokolDev.Settings.csproj", "{B5D9AB4B-9DC1-44CD-B0C9-AE5500B10466}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +39,26 @@ Global
 		{8D421C5E-0560-4C11-8B04-D0B4117695DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D421C5E-0560-4C11-8B04-D0B4117695DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D421C5E-0560-4C11-8B04-D0B4117695DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575DCCF1-EE7A-42F0-A579-E8D37F98E291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575DCCF1-EE7A-42F0-A579-E8D37F98E291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575DCCF1-EE7A-42F0-A579-E8D37F98E291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575DCCF1-EE7A-42F0-A579-E8D37F98E291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DAB202E-47F1-4553-844C-F5A059807487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DAB202E-47F1-4553-844C-F5A059807487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DAB202E-47F1-4553-844C-F5A059807487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DAB202E-47F1-4553-844C-F5A059807487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C843EC6-701A-41D4-A806-645D63B5F520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C843EC6-701A-41D4-A806-645D63B5F520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C843EC6-701A-41D4-A806-645D63B5F520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C843EC6-701A-41D4-A806-645D63B5F520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{604D32FF-4A60-4957-BF8D-DBA81F989810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{604D32FF-4A60-4957-BF8D-DBA81F989810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{604D32FF-4A60-4957-BF8D-DBA81F989810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{604D32FF-4A60-4957-BF8D-DBA81F989810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D9AB4B-9DC1-44CD-B0C9-AE5500B10466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D9AB4B-9DC1-44CD-B0C9-AE5500B10466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D9AB4B-9DC1-44CD-B0C9-AE5500B10466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D9AB4B-9DC1-44CD-B0C9-AE5500B10466}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
